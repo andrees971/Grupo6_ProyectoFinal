@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IloveFood | Restaurante producto</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="logo" class="logo">
+        <nav class="menu">
+            <a href="restaurante.html">Inicio</a>
+            <a href="restauranteProdcuto.html">Prodcutos</a>
+            <a href="restauranteConfig.html">Configuracion</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="subtitulo">Producto</h2>
+        <div class="formulario">
+            <form action="enviar.php" method="POST">
+                <label>
+                    <span>ID: </span>
+                    <input type="text" name="id" required>
+                </label>
+                <label>
+                    <span>Nombre: </span> 
+                    <input type="text" name="nombre" required>
+                </label>
+                <label>
+                    <span>Categoria </span> 
+                    <input type="text" name="categoria" required>
+                </label>
+                <label>
+                    <span>Descripcion </span> 
+                    <textarea name="descripcion" required></textarea>
+                </label>
+                <button type="submit">Crear</button>
+                <button type="submit">Modificar</button>
+                <button type="submit">Elliminar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Developed and designed by Grupo 6 miniTic. ©2021. All rights reserved
+    </footer>
+</body>
+</html>
