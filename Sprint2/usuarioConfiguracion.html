@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IloveFood | Configuracion</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="logo" class="logo">
+        <nav class="menu">
+            <a href="usuario.html">Inicio</a>
+            <a href="usuarioProducto.html">Prodcutos</a>
+            <a href="usuarioConfiguracion.html">Configuracion</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="subtitulo">Configuracion</h2>
+        <div class="formulario">
+            <form action="configurar.php" method="POST">
+                <label>
+                    <span>Nombre: </span>
+                    <input type="text" name="nombre" required>
+                </label>
+                <label>
+                    <span>Telefono: </span> 
+                    <input type="number" name="telefono" required>
+                </label>
+                <label>
+                    <span>Email: </span> 
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    <span>Direccion: </span> 
+                    <input type="text" name="direccion" required>
+                </label>
+            </form>
+            <button type="submit">Configurar</button>
+        </div>
+        <button type="button">Cerrar sesion</button>
+        <button type="button">Eliminar cuenta</button>
+    </main>
+    <footer>
+        Developed and designed by Grupo 6 miniTic. ©2021. All rights reserved
+    </footer>
+</body>
+</html>

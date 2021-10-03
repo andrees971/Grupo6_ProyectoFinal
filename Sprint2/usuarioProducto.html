@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IloveFood | Restaurante</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="logo" class="logo">
+        <nav class="menu">
+            <a href="usuario.html">Inicio</a>
+            <a href="usuarioProducto.html">Prodcutos</a>
+            <a href="usuarioConfiguracion.html">Configuracion</a>
+        </nav>
+    </header>
+    <main>
+        <section class="productos ">
+            <label>
+                <input type="text" name="buscar" >
+                <button type="submit">Buscar</button>
+            </label>
+            <div class="restaurante">
+                <h2>Restaurantes</h2>
+                <figure>
+                    <img src="" alt="img_rs">
+                    <h4>Restaurante</h4>
+                </figure>
+                <figure>
+                    <img src="" alt="img_rs">
+                    <h4>Restaurante</h4>
+                </figure>
+                <figure>
+                    <img src="" alt="img_rs">
+                    <h4>Restaurante</h4>
+                </figure>
+            </div>
+            <div class="producto">
+                
+                <h2>Productos</h2>
+                <figure>
+                    <img src="" alt="img_pr">
+                    <h3>producto </h3>
+                    <p class="caractaeristicas">Este producto tiene los siguiente ingredientes:</p>
+                </figure>
+                <figure>
+                    <img src="" alt="img_pr">
+                    <h3>producto </h3>
+                    <p class="caractaeristicas">Este producto tiene los siguiente ingredientes:</p>
+                </figure>
+                <figure>
+                    <img src="" alt="img_pr">
+                    <h3>producto </h3>
+                    <p class="caractaeristicas">Este producto tiene los siguiente ingredientes:</p>
+                </figure>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contenedor contact">
+                <h2 class="subtitulo">CONTACTO</h2>
+                <div class="formulario">
+                    <form action="enviar.php" method="POST">
+                        <label>
+                            <span>Nombre: </span>
+                            <input type="text" name="nombre" required>
+                        </label>
+                        <label>
+                            <span>Tu email: </span> 
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            <span>Tu mensaje: </span> 
+                            <textarea name="mensaje" required></textarea>
+                        </label>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Developed and designed by Grupo 6 miniTic. ©2021. All rights reserved
+    </footer>
+</body>
+</html>
