@@ -5,45 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IloveFood | Configuracion</title>
+    <link rel="stylesheet" href="../Sprint3/configuracion.css">
 </head>
 <body>
     <header>
-        <img src="" alt="logo" class="logo">
-        <nav class="menu">
-            <a href="restaurante.html">Inicio</a>
-            <a href="restauranteProdcuto.html">Prodcutos</a>
-            <a href="restauranteConfig.html">Configuracion</a>
-        </nav>
+        <div class="cabecera">
+            <img src="" alt="logo" class="logo">
+            <nav class="menu">
+                <a href="restaurante.html">Inicio</a>
+                <a href="restauranteProdcuto.html">Prodcutos</a>
+                <a href="restauranteConfig.html">Configuracion</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <h2 class="subtitulo">Configuracion</h2>
-        <div class="formulario">
-            <form action="configurar.php" method="POST">
-                <label>
-                    <span>Nombre: </span>
-                    <input type="text" name="nombre" required>
-                </label>
-                <label>
-                    <span>Telefono: </span> 
-                    <input type="number" name="telefono" required>
-                </label>
-                <label>
-                    <span>Email: </span> 
-                    <input type="email" name="email" required>
-                </label>
-                <label>
-                    <span>Direccion: </span> 
-                    <input type="text" name="direccion" required>
-                </label>
-                <label>
-                    <span>Categoria: </span> 
-                    <input type="text" name="Categoria" required>
-                </label>
-            </form>
-            <button type="submit">Configurar</button>
+        <div class="contenedor">
+            <h2 class="subtitulo">Configuracion</h2>
+            <div class="formulario">
+                <form action="configurar.php" method="POST">
+                    <label>
+                        <span>Nombre: </span>
+                        <input type="text" name="nombre" required>
+                    </label>
+                    <label>
+                        <span>Telefono: </span> 
+                        <input type="number" name="telefono" required>
+                    </label>
+                    <label>
+                        <span>Email: </span> 
+                        <input type="email" name="email" required>
+                    </label>
+                    <label>
+                        <span>Direccion: </span> 
+                        <input type="text" name="direccion" required>
+                    </label>
+                    <label>
+                        <span>Categoria: </span> 
+                        <input type="text" name="Categoria" required>
+                    </label>
+                    <button type="submit">Configurar</button>
+                </form>
+            </div>
+            <button type="button">Cerrar sesion</button>
+            <button type="button">Eliminar cuenta</button>
         </div>
-        <button type="button">Cerrar sesion</button>
-        <button type="button">Eliminar cuenta</button>
     </main>
     <footer>
         Developed and designed by Grupo 6 miniTic. ©2021. All rights reserved

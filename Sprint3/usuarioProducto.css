@@ -1,0 +1,9 @@
+.restaurante{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.restaurante figure{
+    display: flex;
+    flex-direction: column;
+}
