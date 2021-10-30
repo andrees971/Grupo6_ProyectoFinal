@@ -41,6 +41,12 @@ figure{
     align-items: center;
     padding-bottom: 15px;
 }
+
+#img_pr{
+    width: 150px;
+    height: 130px;
+}
+
 h2 {
   font-size: 48;
   color: black;

@@ -6,6 +6,9 @@ h1 {
   text-align: left;
   color: azure;
 }
+.inicio{
+  text-decoration: none;
+}
 h2 {
   font-size: 48;
   color: black;

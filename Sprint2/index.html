@@ -11,8 +11,8 @@
 
 <body>
 </body>
-<h1>IloveFood!
-</h1>
+
+<a href="menu.html" class="inicio"> <h1>IloveFood!</h1> </a>
 <br>
 <br>
 <form action="/my-handling-form-page" method="post">
@@ -40,12 +40,12 @@
     <br>
     <li>
       <h3>
-        <input type="submit" value="Entrar">
+        <input type="button" value="Entrar" onclick="inicio();">
       </h3>
     </li>
     <br>
     <li>
-      <a href="https://www.w3schools.com/">¿No recuerdas la contraseña?</a>
+      <a href="#">¿No recuerdas la contraseña?</a>
     </li>
     <br>
     <hr>
@@ -53,8 +53,10 @@
       <label for="nuevo_usuario">Nuevo usuario</label>
       <br>
       <br>
-      <input type="button" id="registro" name="registro" value="Registrarse" />
+      <input src="registro.html" type="button" id="registro" name="registro" value="Registrarse" onclick="cambioPagina();"/>
       <br>
     </li>
-
+<script src="../Sprint4/app.js"></script>
+  
+</style>
 </html>

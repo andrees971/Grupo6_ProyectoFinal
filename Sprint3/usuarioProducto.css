@@ -7,3 +7,13 @@
     display: flex;
     flex-direction: column;
 }
+
+#img_rs{
+    width: 150px;
+    height: 84px;
+}
+
+#img_rs-s{
+    width: 84px;
+    height: 84px;
+}

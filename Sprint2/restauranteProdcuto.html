@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="cabecera">
-            <img src="" alt="logo" class="logo">
+            <img src="../Sprint3/img/logoIloveFood.png" alt="logo" class="logo">
             <nav class="menu">
                 <a href="restaurante.html">Inicio</a>
                 <a href="restauranteProdcuto.html">Prodcutos</a>
@@ -38,14 +38,15 @@
                     <span>Descripcion </span> 
                     <textarea name="descripcion" required></textarea>
                 </label>
-                <button type="submit">Crear</button>
-                <button type="submit">Modificar</button>
-                <button type="submit">Elliminar</button>
+                <button type="button" onclick="alerta('Se creo el producto');">Crear</button>
+                <button type="button" onclick="alerta('Se modifico el producto');">Modificar</button>
+                <button type="button" onclick="alerta('Se Elimino el producto');">Elliminar</button>
             </form>
         </div>
     </main>
     <footer>
         Developed and designed by Grupo 6 miniTic. ©2021. All rights reserved
     </footer>
+    <script src="../Sprint4/app.js"></script>
 </body>
 </html>
